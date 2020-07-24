@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Manual Interactivo para Gerencia de proyectos</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -12,79 +13,99 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $('#fullpage').fullpage({
-              sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+              sectionsColor: ['#191919', '#F44336', '#191919', 'whitesmoke', '#ccddff'],
               anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
               menu: '#menu',
-              
+              scrollOverflow: true,
+              scrollOverflowEndPrevent: { delay: 500, reversal: false }
+
             });
         });
     </script>
   </head>
   <body>
+
+    <div class="abs">
+      <a class="btn btn-light btn-lg btn-block" href="#firstPage">Bienvenidos</a>
+      <a class="btn btn-light btn-lg btn-block" href="#secondPage">Areas</a>
+      <a class="btn btn-light btn-lg btn-block" href="#3rdPage">Relaciones</a>
+    </div>
+
     <div id="fullpage">
-        <div class="section " id="section0">
-            <h1>fullPage.js</h1>
-            <p>Continuous Scrolling Enabled</p>
-            <img src="imgs/fullPage.png" alt="fullPage" />
+        <div class="section active" id="section0">
+            <h1>PMBOK</h1>
+            <p>Un manual interactivo para <br> Gerencia de Proyectos</p>
         </div>
-        <div class="section active" id="section1">
-            <div class="slide" id="slide1">
+        <div class="section " id="section1">
+            <div class="slide active" id="slide1">
                 <div class="intro">
-                    <h1>Around the world scrolling</h1>
-                    <p>Go to the first section and scroll up or to the last one and scroll down to see how it works.</p>
+                    <h1>Areas</h1>
+                    <p>Estas son las areas que</p>
                 </div>
             </div>
-            <div class="slide active" id="slide2">
-                <h1>Slide 2</h1>
+            <div class="slide" id="slide2">
+              <h1>Integración</h1>
+
+                  <li>Desarrollar el acta constitutiva del proyecto</li>
+                  <li>Desarrollar el Plan de Gestión del Proyecto </li>
+                  <li>Dirigir y gestionar la ejecución del proyecto</li>
+                  <li>Monitorear y Controlar los trabajos del Proyecto </li>
+                  <li>Ejecutar el Control Integrado de Cambios </li>
+                  <li>Cerrar el proyecto </li>
+
             </div>
             <div class="slide" id="slide3">
-                <h1>Slide 3</h1>
+              <h1>Alcance</h1>
+
+                  <li>Gestión del Alcance </li>
+                  <li>Obtener los requerimientos</li>
+                  <li>Definir el alcance </li>
+                  <li>Crear la EDT</li>
+                  <li>Verificar el Alcance</li>
+                  <li>Controlar el Alcance</li>
+
+            </div>
+            <div class="slide" id="slide4">
+              <h1>Plazos </h1>
+
+                  <li>planificar la gestión de los plazos </li>
+                  <li>Definir las actividades </li>
+                  <li>Secuenciar las actividades  </li>
+                  <li>Estimar los recursos </li>
+                  <li>Estimar la Duración</li>
+                  <li>Desarrollar el Cronograma</li>
+                
             </div>
 
         </div>
-        <div class="section" id="section2">
-            <div class="intro">
-                <h1>Scroll Down</h1>
-                <p>And it will animate down to the first section</p>
+        <div class="section " id="section2">
+            <div class="slide active" id="slide1">
+                <div class="intro">
+                    <h1>Relación de los modelos </h1>
+                    <p>Estas son las relaciones</p>
+                </div>
             </div>
+            <div class="slide " id="slide2">
+              <h1>1</h1>
+              <h1>Desarrollar el acta constitutiva del proyecto </h1>
+                <p>Este es uno de los requisitos esenciales para comenzar el proyecto. Se trata de un documento legal obligatorio que constituye la base de la inauguración de cualquier empresa. Documenta la información de alto nivel acerca del proyecto y del producto, servicio o resultado que el proyecto pretende satisfacer, tal como:</p>
+            </div>
+            <div class="slide " id="slide3">
+              <h1>Identificar a los interesados  </h1>
+                <p>Es el proceso de identificar periódicamente a los interesados del proyecto, así como de analizar y documentar información relevante relativa a sus intereses, participación, interdependencias, influencia y posible impacto en el éxito del proyecto</p>
+            </div>
+            <div class="slide " id="slide4">
+              <h1>Desarrollar el Plan para la dirección del proyecto </h1>
+                <p>El plan para la dirección del proyecto es el documento que describe el modo en que el proyecto será ejecutado, monitoreado y controlado y cerrado. Integra y consolida todos los planes de gestión y líneas base subsidiarias y demás información necesaria para dirigir el proyecto. Las necesidades del proyecto determinan qué componentes del plan para la dirección del proyecto son necesarios.</p>
+            </div>
+            <div class="slide " id="slide5">
+              <h1>Planificar la Gestión del alcance  </h1>
+              <p>Establece el modo en que el alcance será definido, desarrollado, monitoreado, controlado y validado. Es el proceso de crear un plan de gestión del alcance que documente cómo se va a definir, validar y controlar el alcance del proyecto y del producto.</p>
+            </div>
+
         </div>
     </div>
 
-
-<!--
-    <section class="uno" id="section1">
-        <div class="container-fluid shirt-container levitate">
-          <div data-aos="flip-right" data-aos-duration="3000">
-            <img src="img/1.png" class="img-fluid shirt" alt="">
-          </div>
-        </div>
-        <div class="display-mobile">
-          <h2>¿TÚ CREÍSTE QUE ERA CUENTO?</h2>
-          <button type="button" class="btn botoncolor">Reservar</button>
-        </div>
-      <div class="container-fluid grid-absolute">
-        <div class="row">
-          <div class="col grid">
-            <div class="left">
-              <div class="boton">
-                <h2 class="display-web">¿TÚ CREÍSTE QUE ERA CUENTO?</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col grid">
-            <div class="right">
-              <div class="boton">
-                <button type="button" class="btn botoncolor display-web">Reservar</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <footer>
-      <h2>MADE BY ALESSANDROVARU </h2>
-    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
