@@ -267,14 +267,14 @@ position: absolute;
     left: 15px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #212529 transparent #212529;
+    border-color: transparent #ffffff transparent #ffffff;
     top: 560px;
 }
 
 .fp-controlArrow.fp-next {
     right: 20px;
     border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #212529;
+    border-color: transparent transparent transparent #ffffff;
     top: 560px;
 }
 
@@ -285,7 +285,6 @@ position: absolute;
     height: 100%;
     color: white;
     text-align: center;
-    padding: 20px
 }
 li{
 
@@ -301,6 +300,151 @@ h1{
   text-transform: uppercase;
 }
 
+.background1 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('https://live.staticflickr.com/7711/27891840712_4659691a66_b.jpg');
+    background-size: cover;
+    opacity: 1
+}
+
+.background2 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('../img/1.jpg');
+    background-size: cover;
+    opacity: 1
+}
+
+.background3 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('https://www.incimages.com/uploaded_files/image/1920x1080/getty_533979847_128300.jpg');
+    background-size: cover;
+    opacity: 1
+}
+
+.background4 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('https://picjumbo.com/wp-content/uploads/office-work-things_free_stock_photos_picjumbo_HNCK5108.jpg');
+    background-size: cover;
+    opacity: 1
+}
+
+.background5 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('https://www.deborahweinswig.com/wp-content/uploads/2017/02/picjumbo-workspace-desk-stock-photo.jpg');
+    background-size: cover;
+    opacity: 1
+}
+
+.background6 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('https://ak.picdn.net/shutterstock/videos/14058800/thumb/1.jpg');
+    background-size: cover;
+    opacity: 1
+}
+
+.background7 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('https://ak.picdn.net/shutterstock/videos/14058800/thumb/1.jpg');
+    background-size: cover;
+    opacity: 1
+}
+
+.background8 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('https://www.mafius.com/wp-content/uploads/2011/10/business.jpg');
+    background-size: cover;
+    opacity: 1
+}
+
+.background9 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('https://ak.picdn.net/shutterstock/videos/14058800/thumb/1.jpg');
+    background-size: cover;
+    opacity: 1
+}
+.background10 {
+    position: absolute;
+    background-color: red;
+    width: 100vw;
+    top: 0;
+    height: 100vh;
+    opacity: 10;
+    z-index: -2;
+    background-image: url('https://picjumbo.com/wp-content/uploads/woman-business-office-meeting-2210x1473.jpg');
+    background-size: cover;
+    opacity: 1
+}
+
+
+
+
+.shadowback{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background: black;
+    opacity: 0.7;
+    z-index: -1
+}
+
+li{
+  text-align: center;
+}
 
 @media (max-width:992px) {
   .shirt{
@@ -355,11 +499,17 @@ h1{
 .h1, h1 {
     font-size: 1.5rem;
     text-align: left;
+    padding-left: 30px
 }
 p {
     margin-top: 0;
     margin-bottom: 1rem;
     text-align: left;
     font-size: 10px;
+}
+li {
+    text-align: left;
+    font-size: 8px;
+    text-align: left;
 }
 }
