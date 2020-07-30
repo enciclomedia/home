@@ -506,6 +506,8 @@ p {
     margin-bottom: 1rem;
     text-align: left;
     font-size: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 li {
     text-align: left;
