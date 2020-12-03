@@ -543,4 +543,9 @@ li {
     .section li {
     font-size: 8px;
 }
+    .logo-container h1 {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
 }
