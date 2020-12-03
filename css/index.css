@@ -307,7 +307,6 @@ position: absolute;
 li{
 
     font-size: 11px;
-    list-style: none;
     text-align: left;
 }
 
@@ -514,7 +513,16 @@ h1{
 .h1, h1 {
     font-size: 1.5rem;
     text-align: left;
-    padding-left: 30px
+}
+.section h2 {
+  font-size: 24px;
+  /* margin-bottom: 60px; */
+}
+.section h3 {
+  font-size: 12px;
+  /* margin-bottom: 60px; */
+  width: 80%;
+  margin-left: 20px;
 }
 p {
     margin-top: 0;
@@ -528,5 +536,8 @@ li {
     text-align: left;
     font-size: 8px;
     text-align: left;
+}
+.section ul {
+  margin-left: 1px; 
 }
 }
