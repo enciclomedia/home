@@ -176,12 +176,11 @@ position: absolute;
   color: white
 }
 
-.logo-container{
+.logo-container {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column
+  flex-direction: column;
 }
 .shirt-container{
   position: absolute;
