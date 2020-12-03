@@ -540,4 +540,7 @@ li {
 .section ul {
   margin-left: 1px; 
 }
+    .section li {
+    font-size: 8px;
+}
 }
