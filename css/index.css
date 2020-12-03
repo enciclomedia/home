@@ -181,7 +181,7 @@ position: absolute;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: left;
+  text-align: left;
 }
 .shirt-container{
   position: absolute;
@@ -461,9 +461,6 @@ h1{
     z-index: -1
 }
 
-li{
-  text-align: center;
-}
 
 @media (max-width:992px) {
   .shirt{
