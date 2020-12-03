@@ -12,7 +12,26 @@ body{
 body::-webkit-scrollbar {
     display: none;
 }
+.section h2 {
+  font-size: 90px;
+  margin-bottom: 60px;
+ 
+}
 
+.section h3 {
+  font-size: 24px;
+  margin-bottom: 60px;
+  width: 80%;
+  margin-left: 20px;
+}
+
+.section li{
+  font-size: 24px;
+}
+
+.section ul{
+  margin-left: 100px;
+}
 .home{
   background-color: black;
   height: 100vh;
