@@ -267,6 +267,11 @@ position: absolute;
   z-index: 33;
   margin-top: 30px;
 }
+.abs1{
+  position: absolute;
+  z-index: 33;
+  margin-top: 80px;
+}
 
 .btn-primary {
   font-size: 12px;
@@ -370,15 +375,15 @@ h1{
 }
 
 .background5 {
-    position: absolute;
-    background-color: red;
-    width: 100vw;
-    top: 0;
-    height: 100vh;
-    opacity: 10;
-    z-index: -2;
-    background-size: cover;
-    opacity: 1
+  position: absolute;
+  background-color: #ff4d00;
+  width: 100vw;
+  top: 0;
+  height: 100vh;
+  opacity: 10;
+  z-index: -2;
+  background-size: cover;
+  opacity: 1;
 }
 
 .background6 {
@@ -456,6 +461,16 @@ h1{
     background: black;
     opacity: 0.7;
     z-index: -1
+}
+
+.shadowback1 {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  background: #00000045;
+  opacity: 0.7;
+  z-index: -1;
 }
 
 
